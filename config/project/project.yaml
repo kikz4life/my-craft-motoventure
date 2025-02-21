@@ -1,0 +1,62 @@
+dateModified: 1739868030
+email:
+  fromEmail: dean.casili@gmail.com
+  fromName: my-craft-motoventure
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+meta:
+  __names__:
+    1f70cb78-6ca2-4a94-b621-6462c2c84094: 'Stories Rich Text' # Stories Rich Text
+    2e35c1e2-9d94-4a4a-92b5-34042bb1f12c: 'Riders List Description' # Riders List Description
+    6a9bf967-4edc-4493-bd4c-b611638899af: 'Navigation Text' # Navigation Text
+    6b4808ad-9da5-4be9-b2b1-0e38754fda39: 'Riders Title' # Riders Title
+    7a271094-fb7a-4cda-8785-cbc3c207ebd6: Hero # Hero
+    9c00dcdc-5b2e-4278-a997-7dd45a90936a: 'Stories Main Title' # Stories Main Title
+    16bfb820-a114-4f68-9048-6778d987a49b: Stories # Stories
+    29a604bd-6efd-438a-963d-1ee1c97b5582: 'Riders List Image' # Riders List Image
+    56fcc085-bb35-4771-963c-7134ba0f3b6f: Uploads # Uploads
+    093a68b8-91ef-4aba-8573-b6c40576781c: 'Public Schema' # Public Schema
+    107eb74f-34d7-49f0-8d61-5098aa91924b: my-craft-motoventure # my-craft-motoventure
+    0264e59e-65e6-4039-8a15-aece203b252d: Hero # Hero
+    400a20c1-063d-4a90-aaf0-b549a7239ca1: 'Hero Image' # Hero Image
+    643bd79a-37a1-4401-813c-cb0e06034c57: 'Hero Title' # Hero Title
+    2104cd9b-17eb-41f9-85e8-a0f6127baa0b: 'Riders List Full Name' # Riders List Full Name
+    4246f005-af63-41c2-adfa-04278168a881: 'Stories Image' # Stories Image
+    8182def5-b8ce-4def-902f-7753f324973b: my-craft-motoventure # my-craft-motoventure
+    58273dac-c01c-47f0-a73d-375a71375a40: 'Stories Detail' # Stories Detail
+    898435c5-53d3-489c-aebb-7d59b24a9b01: 'Featured Story' # Featured Story
+    82961471-438e-4188-b303-87f095d58aaf: 'Riders List' # Riders List
+    af25e630-a3af-4019-8889-14e631d9e086: 'Navigation Destination' # Navigation Destination
+    b1cbfa42-5cf4-44a4-9864-f59e452e66d0: 'Stories Main Title' # Stories Main Title
+    b3a300d3-d3b9-433a-b213-a4128e8e7c71: Simple # Simple
+    b2899aca-1e7d-4a6f-93e7-6c337a802e5c: Custom # Custom
+    caa3b1cd-dccb-4867-bd66-49f7824c2f99: Header # Header
+    d292b2ed-c50c-48c6-bc6d-ae798c7c9e3c: 'Navigation Link' # Navigation Link
+    da47b403-ebba-4285-bf14-59ddf866e0ea: 'Navigation Link' # Navigation Link
+    ded0a65a-f369-4d91-9650-4c5f11f36517: 'Stories Entry Rich Text' # Stories Entry Rich Text
+    f4812c4f-c6bf-4726-a366-7d71a38b9c35: 'Riders List' # Riders List
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+system:
+  edition: solo
+  live: true
+  name: my-craft-motoventure
+  schemaVersion: 5.6.0.2
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

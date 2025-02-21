@@ -1,0 +1,61 @@
+{% extends "_layout.twig" %}
+
+{% block content %}
+    {% set heroImage = entry.heroImage.one() %}
+<section class="hero" style="background-image: url('{{ heroImage.url }}')">
+    <div class="hero__content content-column">
+
+        <h1>{{ entry.heroTitle }}</h1>
+
+    </div>
+</section>
+
+<section class="featured-story">
+    <div class="featured-story__flex content-column">
+        {% set featuredStory = entry.featuredStory.one() %}
+
+        <div class="featured-story__content">
+
+            <h2>{{ featuredStory.title }}</h2>
+
+            {{ featuredStory.storiesRichText }}
+
+            <p>
+                <a href="{{ featuredStory.url }}" class="cta-link">Discover the full story</a>
+            </p>
+
+        </div>
+
+        <div class="featured-story__slider">
+
+            {% include "components/slider.twig" with {
+                photos: featuredStory.storiesImage.all()
+            } %}
+
+        </div>
+
+    </div>
+</section>
+
+<section class="riders section section--more-padding section--light section--angled-top">
+    <div class="content-column centered">
+
+        {{ entry.ridersTitle }}
+
+        <div class="flex-columns">
+
+            {% for rider in entry.ridersList.all() %}
+            {% set riderImage = rider.ridersListImage.one() %}
+            <div class="flex-columns__item">
+                <img src="{{ riderImage.url }}" alt="{{ rider.ridersListFullName }}" class="flex-columns__image">
+                <h4>{{ rider.ridersListFullName }}</h4>
+                <p>{{ rider.ridersListDescription }}</p>
+            </div>
+            {% endfor %}
+
+        </div>
+
+    </div>
+</section>
+
+{% endblock %}

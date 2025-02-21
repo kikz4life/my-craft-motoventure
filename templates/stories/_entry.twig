@@ -1,0 +1,16 @@
+{% extends "_layout.twig" %}
+
+{% block content %}
+    <article class="stories-entry section">
+        <div class="content-column content-column--narrow">
+
+            <h1 class="centered">{{ entry.title }}</h1>
+
+            {% include "components/slider.twig" with {
+                photos: entry.storiesImage.all()
+            } %}
+
+            {{ entry.storiesEntryRichText}}
+        </div>
+    </article>
+{% endblock %}

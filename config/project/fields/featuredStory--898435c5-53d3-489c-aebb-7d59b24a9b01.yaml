@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: featuredStory
+instructions: null
+name: 'Featured Story'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: 1
+  selectionLabel: 'Select a story'
+  showCardsInGrid: false
+  showSiteMenu: false
+  sources:
+    - 'section:58273dac-c01c-47f0-a73d-375a71375a40' # Stories Detail
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Entries

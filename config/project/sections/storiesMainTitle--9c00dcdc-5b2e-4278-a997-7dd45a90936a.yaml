@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: b1cbfa42-5cf4-44a4-9864-f59e452e66d0 # Stories Main Title
+handle: storiesMainTitle
+maxAuthors: 1
+name: 'Stories Main Title'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  8182def5-b8ce-4def-902f-7753f324973b: # my-craft-motoventure
+    enabledByDefault: true
+    hasUrls: true
+    template: stories/index.twig
+    uriFormat: stories
+type: single

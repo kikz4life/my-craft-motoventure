@@ -1,0 +1,28 @@
+fieldLayouts:
+  f00ad29c-66d0-4701-8fa4-5467874510d5:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-02-18T08:30:22+00:00'
+            elementCondition: null
+            fieldUid: da47b403-ebba-4285-bf14-59ddf866e0ea # Navigation Link
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 66a1a578-2d31-4c51-ad14-5a4efef66188
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Navigation Links'
+        uid: 7ab44506-9fc6-4ea7-ada5-5b712adc4bcb
+        userCondition: null
+handle: header
+name: Header
+sortOrder: 1

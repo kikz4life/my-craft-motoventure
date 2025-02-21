@@ -1,0 +1,36 @@
+{% extends "_layout.twig" %}
+
+{% block content %}
+    <section class="stories section">
+        <div class="content-column">
+
+            <h1 class="centered">{{ entry.title }}</h1>
+
+            <div class="two-columns">
+
+                {% for story in craft.entries.section('stories').all() %}
+                    {% set storyImage = story.storiesImage.one() %}
+
+                    <div class="two-columns__item">
+
+                        <div class="two-columns__content">
+                            <h2>{{ story.title }}</h2>
+                            {{ story.storiesRichText }}
+                            <p>
+                                <a href="{{ story.url }}" class="cta-link">Discover the full story</a>
+                            </p>
+                        </div>
+
+                        <div class="two-columns__image">
+                            <img src="{{ storyImage.url }}" alt="Photo">
+                        </div>
+
+                    </div>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+    </section>
+{% endblock %}

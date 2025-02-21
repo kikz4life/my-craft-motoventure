@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: ridersTitle
+instructions: null
+name: 'Riders Title'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  ckeConfig: b2899aca-1e7d-4a6f-93e7-6c337a802e5c # Custom
+  createButtonLabel: null
+  defaultTransform: null
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  sourceEditingGroups: '*'
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

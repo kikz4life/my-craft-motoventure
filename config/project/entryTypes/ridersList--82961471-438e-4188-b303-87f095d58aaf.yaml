@@ -1,0 +1,99 @@
+color: null
+fieldLayouts:
+  ddeedcef-bf9a-4823-be86-ab9f3617ba0b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-02-15T15:23:41+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: f73f48ee-0044-405d-bbb4-11786837bb74
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-02-15T15:29:45+00:00'
+            elementCondition: null
+            fieldUid: 29a604bd-6efd-438a-963d-1ee1c97b5582 # Riders List Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e71d809a-5085-4e9a-92bf-6e0ae9074aa4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-02-15T15:29:45+00:00'
+            elementCondition: null
+            fieldUid: 2104cd9b-17eb-41f9-85e8-a0f6127baa0b # Riders List Full Name
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a1725e9f-cc95-49e7-a7a7-3886a3f54417
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-02-15T15:29:45+00:00'
+            elementCondition: null
+            fieldUid: 2e35c1e2-9d94-4a4a-92b5-34042bb1f12c # Riders List Description
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d5552ed2-a840-4e9d-bb39-a51bfc731013
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 17ab0e84-e27c-408f-842c-2b4c8bab3186
+        userCondition: null
+handle: ridersList
+hasTitleField: true
+icon: null
+name: 'Riders List'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

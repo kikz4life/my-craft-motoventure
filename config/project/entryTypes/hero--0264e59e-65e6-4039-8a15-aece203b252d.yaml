@@ -1,0 +1,143 @@
+color: null
+fieldLayouts:
+  af8368d2-c744-442c-9dd3-5fbaab37a477:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-02-15T15:06:30+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: edadc543-ea8f-407e-b937-94a09fc438e6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-02-15T15:10:09+00:00'
+            elementCondition: null
+            fieldUid: 643bd79a-37a1-4401-813c-cb0e06034c57 # Hero Title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3a356ee8-5d34-435b-9b23-78c7889c7166
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-02-15T15:10:09+00:00'
+            elementCondition: null
+            fieldUid: 400a20c1-063d-4a90-aaf0-b549a7239ca1 # Hero Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0936a293-5dfb-44ad-a43f-564eb8d5f5ce
+            userCondition: null
+            warning: null
+            width: 100
+        name: Hero
+        uid: 241c0adb-5301-4987-949a-87be6d1602b6
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-02-15T15:30:17+00:00'
+            elementCondition: null
+            fieldUid: 6b4808ad-9da5-4be9-b2b1-0e38754fda39 # Riders Title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: da9d48dd-0ac7-4db0-8156-856e30a6fd75
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-02-15T15:30:17+00:00'
+            elementCondition: null
+            fieldUid: f4812c4f-c6bf-4726-a366-7d71a38b9c35 # Riders List
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fa93eb26-528d-41b3-9b7e-e71ea405b490
+            userCondition: null
+            warning: null
+            width: 100
+        name: Riders
+        uid: 387b467a-921b-4ccc-a07d-e1fb886e3058
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-02-18T07:40:02+00:00'
+            elementCondition: null
+            fieldUid: 898435c5-53d3-489c-aebb-7d59b24a9b01 # Featured Story
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: da89c5a6-bbba-4fbb-8ff4-2e318aa68f4a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Featured
+        uid: 47437c45-fce0-46f2-9e22-48e5b0d6d0ee
+        userCondition: null
+handle: hero
+hasTitleField: true
+icon: null
+name: Hero
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

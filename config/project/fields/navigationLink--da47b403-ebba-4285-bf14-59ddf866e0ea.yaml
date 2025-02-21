@@ -1,0 +1,25 @@
+columnSuffix: null
+handle: navigationLink
+instructions: null
+name: 'Navigation Link'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - d292b2ed-c50c-48c6-bc6d-ae798c7c9e3c # Navigation Link
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,0 +1,25 @@
+<header class="header">
+    <div class="header__content content-column">
+
+        <a href="{{ siteUrl }}" class="logo">
+            <img src="{{ siteUrl }}static/images/logo.svg" alt="Motoventure">
+        </a>
+
+        <button type="button" class="nav-toggle">
+            <img src="{{ siteUrl }}static/images/list.svg" alt="Menu" class="icon-open-menu">
+            <img src="{{ siteUrl }}static/images/x.svg" alt="Close Menu" class="icon-close-menu">
+        </button>
+
+        <nav class="nav">
+            {% for link in header.navigationLink.all() %}
+                {% set href = link.navigationDestination.one() %}
+                {% set text = link.navigationText %}
+
+                {% set activeLink = craft.app.request.segments|first == href.uri %}
+                {% set isActive = activeLink ? "nav__link--active":"" %}
+                <a href="{{ href.url }}" class="nav__link {{ isActive }}">{{ text }}</a>
+            {% endfor %}
+        </nav>
+
+    </div>
+</header>
