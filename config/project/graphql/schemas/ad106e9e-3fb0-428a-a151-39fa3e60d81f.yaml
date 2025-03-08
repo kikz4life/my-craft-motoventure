@@ -1,0 +1,48 @@
+isPublic: false
+name: 'API ALL'
+scope:
+  - 'sites.8182def5-b8ce-4def-902f-7753f324973b:read' # my-craft-motoventure
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'
+  - 'sections.7a271094-fb7a-4cda-8785-cbc3c207ebd6:read' # Hero
+  - 'sections.9c00dcdc-5b2e-4278-a997-7dd45a90936a:read' # Stories Main Title
+  - 'sections.58273dac-c01c-47f0-a73d-375a71375a40:read' # Stories Detail
+  - 'nestedentryfields.6b4808ad-9da5-4be9-b2b1-0e38754fda39:read' # Riders Title
+  - 'nestedentryfields.ded0a65a-f369-4d91-9650-4c5f11f36517:read' # Stories Entry Rich Text
+  - 'nestedentryfields.1f70cb78-6ca2-4a94-b621-6462c2c84094:read' # Stories Rich Text
+  - 'nestedentryfields.da47b403-ebba-4285-bf14-59ddf866e0ea:read' # Navigation Link
+  - 'nestedentryfields.f4812c4f-c6bf-4726-a366-7d71a38b9c35:read' # Riders List
+  - 'volumes.56fcc085-bb35-4771-963c-7134ba0f3b6f:read' # Uploads
+  - 'globalsets.caa3b1cd-dccb-4867-bd66-49f7824c2f99:read' # Header
+  - 'sections.7a271094-fb7a-4cda-8785-cbc3c207ebd6:save' # Hero
+  - 'sections.9c00dcdc-5b2e-4278-a997-7dd45a90936a:save' # Stories Main Title
+  - 'sections.58273dac-c01c-47f0-a73d-375a71375a40:edit' # Stories Detail
+  - 'sections.58273dac-c01c-47f0-a73d-375a71375a40:create' # Stories Detail
+  - 'sections.58273dac-c01c-47f0-a73d-375a71375a40:save' # Stories Detail
+  - 'sections.58273dac-c01c-47f0-a73d-375a71375a40:delete' # Stories Detail
+  - 'nestedentryfields.6b4808ad-9da5-4be9-b2b1-0e38754fda39:edit' # Riders Title
+  - 'nestedentryfields.6b4808ad-9da5-4be9-b2b1-0e38754fda39:create' # Riders Title
+  - 'nestedentryfields.6b4808ad-9da5-4be9-b2b1-0e38754fda39:save' # Riders Title
+  - 'nestedentryfields.6b4808ad-9da5-4be9-b2b1-0e38754fda39:delete' # Riders Title
+  - 'nestedentryfields.ded0a65a-f369-4d91-9650-4c5f11f36517:edit' # Stories Entry Rich Text
+  - 'nestedentryfields.ded0a65a-f369-4d91-9650-4c5f11f36517:create' # Stories Entry Rich Text
+  - 'nestedentryfields.ded0a65a-f369-4d91-9650-4c5f11f36517:save' # Stories Entry Rich Text
+  - 'nestedentryfields.ded0a65a-f369-4d91-9650-4c5f11f36517:delete' # Stories Entry Rich Text
+  - 'nestedentryfields.1f70cb78-6ca2-4a94-b621-6462c2c84094:edit' # Stories Rich Text
+  - 'nestedentryfields.1f70cb78-6ca2-4a94-b621-6462c2c84094:create' # Stories Rich Text
+  - 'nestedentryfields.1f70cb78-6ca2-4a94-b621-6462c2c84094:save' # Stories Rich Text
+  - 'nestedentryfields.1f70cb78-6ca2-4a94-b621-6462c2c84094:delete' # Stories Rich Text
+  - 'nestedentryfields.da47b403-ebba-4285-bf14-59ddf866e0ea:edit' # Navigation Link
+  - 'nestedentryfields.da47b403-ebba-4285-bf14-59ddf866e0ea:create' # Navigation Link
+  - 'nestedentryfields.da47b403-ebba-4285-bf14-59ddf866e0ea:save' # Navigation Link
+  - 'nestedentryfields.da47b403-ebba-4285-bf14-59ddf866e0ea:delete' # Navigation Link
+  - 'nestedentryfields.f4812c4f-c6bf-4726-a366-7d71a38b9c35:edit' # Riders List
+  - 'nestedentryfields.f4812c4f-c6bf-4726-a366-7d71a38b9c35:create' # Riders List
+  - 'nestedentryfields.f4812c4f-c6bf-4726-a366-7d71a38b9c35:save' # Riders List
+  - 'nestedentryfields.f4812c4f-c6bf-4726-a366-7d71a38b9c35:delete' # Riders List
+  - 'volumes.56fcc085-bb35-4771-963c-7134ba0f3b6f:edit' # Uploads
+  - 'volumes.56fcc085-bb35-4771-963c-7134ba0f3b6f:create' # Uploads
+  - 'volumes.56fcc085-bb35-4771-963c-7134ba0f3b6f:save' # Uploads
+  - 'volumes.56fcc085-bb35-4771-963c-7134ba0f3b6f:delete' # Uploads
+  - 'globalsets.caa3b1cd-dccb-4867-bd66-49f7824c2f99:edit' # Header

@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="{{ siteUrl }}static/css/styles.css">
 
 </head>
-<body class="home-page">
+<body class="{{ body_class|default('home-page') }}">
 <div class="wrapper">
 
     {% include "_partials/header.twig" %}
